@@ -33,7 +33,7 @@ def json_default(value):
     raise TypeError('not JSON serializable')
 
 
-conn = pymysql.connect(host='project.cgx0gwgzdjyz.us-east-1.rds.amazonaws.com', user='admin', password='cloud0822', db='info_DB')
+conn = pymysql.connect(host='', user='', password='', db='')
 
 curs = conn.cursor()
 
